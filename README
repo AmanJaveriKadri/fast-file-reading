@@ -1,0 +1,15 @@
+README - Text File Loader
+Aman Javeri Kadri
+
+The basic purpose of this module is to load a text file into memory in a well-organized,
+fast and memory-efficient manner. 
+
+The read_lines functions packages most of what this module has to offer by taking, as
+parameters, a string with the filename to be read, an integer number of lines in the file
+and a pointer where an array of integers specifying the number of characters in each line 
+read will be declared and initialized. This function reads every line of the file named 
+and stores each line as a string in an array of strings that is returned by the function.
+The first line of the file will be found at index 0 of the array and so on.
+
+One may refer to the header file for a description of the other functions available to use 
+in this module.
